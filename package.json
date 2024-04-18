@@ -1,17 +1,17 @@
 {
 	"name": "ssl-expiry-reminder",
-	"version": "0.2.16",
-	"description": "SSL Expiry Reminder - Get Notification remainder on Telegram and Gotify",
-	"main": "check.js",
+	"version": "1.0.1.1",
+	"description": "SSL Expiry Reminder Dockerized - Get Notification remainder on Telegram and Gotify",
+	"main": "app.js",
 	"scripts": {
-		"start": "node check.js -s santhoshveer.com"
+		"start": "node app.js -s germannightmare.com"
 	},
 	"bin": {
-		"checkssl": "check.js"
+		"checkssl": "app.js"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mskian/ssl-expiry-reminder.git"
+		"url": "git+https://github.com/Schecher1/SSL-Expiry-Reminder-Docker.git"
 	},
 	"type": "module",
 	"keywords": [
@@ -20,14 +20,16 @@
 		"ssl",
 		"ssl checker",
 		"ssl expiry checker",
-		"gotify"
+		"gotify",
+		"docker",
+		"docker-compose"
 	],
-	"author": "Santhosh Veer",
+	"author": "Santhosh Veer & Schecher_1",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/mskian/ssl-expiry-reminder/issues"
+		"url": "https://github.com/Schecher1/ssl-expiry-reminder/issues"
 	},
-	"homepage": "https://github.com/mskian/ssl-expiry-reminder/#readme",
+	"homepage": "https://github.com/Schecher1/ssl-expiry-reminder/#readme",
 	"dependencies": {
 		"axios": "^1.6.8",
 		"commander": "^11.1.0",
